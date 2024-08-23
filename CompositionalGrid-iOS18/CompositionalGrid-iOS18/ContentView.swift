@@ -2,15 +2,16 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var count: Int = 3
+    private var spacing: CGFloat = 6
 
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 6) {
+                LazyVStack(spacing: spacing) {
                     PickerView()
                         .padding(.bottom, 10)
 
-                    CompositionalLayout {
+                    CompositionalLayout(count: count, spacing: spacing) {
                         ForEach(1...50, id: \.self) { index in
                             Rectangle()
                                 .fill(.black.gradient)

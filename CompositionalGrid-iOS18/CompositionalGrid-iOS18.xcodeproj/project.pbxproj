@@ -11,6 +11,7 @@
 		89B545E32C6308DF00075479 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B545E22C6308DF00075479 /* ContentView.swift */; };
 		89B545E52C6308E800075479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B545E42C6308E800075479 /* Assets.xcassets */; };
 		89B545E82C6308E800075479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B545E72C6308E800075479 /* Preview Assets.xcassets */; };
+		9F5C3EAC2C78BD7F00940BE6 /* CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C3EAB2C78BD7F00940BE6 /* CompositionalLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		89B545E22C6308DF00075479 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89B545E42C6308E800075479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B545E72C6308E800075479 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F5C3EAB2C78BD7F00940BE6 /* CompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				89B545E02C6308DF00075479 /* CompositionalGrid_iOS18App.swift */,
 				89B545E22C6308DF00075479 /* ContentView.swift */,
+				9F5C3EAB2C78BD7F00940BE6 /* CompositionalLayout.swift */,
 				89B545E42C6308E800075479 /* Assets.xcassets */,
 				89B545E62C6308E800075479 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				89B545E32C6308DF00075479 /* ContentView.swift in Sources */,
 				89B545E12C6308DF00075479 /* CompositionalGrid_iOS18App.swift in Sources */,
+				9F5C3EAC2C78BD7F00940BE6 /* CompositionalLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
