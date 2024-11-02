@@ -14,7 +14,8 @@ struct ContentView: View {
                     CompositionalLayout(count: count, spacing: spacing) {
                         ForEach(1...50, id: \.self) { index in
                             Rectangle()
-                                .fill(.black.gradient)
+                                .fill(.blue.gradient)
+                                .clipShape(RoundedRectangle(cornerRadius: 4))
                                 .overlay {
                                     Text("\(index)")
                                         .foregroundStyle(.white)
